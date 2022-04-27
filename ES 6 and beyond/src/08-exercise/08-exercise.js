@@ -1,5 +1,5 @@
 /**
- * Exercise 08:
+ * const Exercise 08:
  *
  * Finish the code of the `exercise08` function so that it:
  *
@@ -10,10 +10,11 @@
  */
 
 // Finish the code of the function
+
 function exercise08() {
-    function func(a, b) {
+    let func = (a, b) => {
         return a + b;
-    }
+    };
 
     // Don’t change the code bellow this line
     return func;

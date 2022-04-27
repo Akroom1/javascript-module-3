@@ -17,6 +17,10 @@ function exercise09() {
         ["Thursday"],
         ["Friday"],
     ];
+
+    let weekDays = days.flat();
+
+    return weekDays;
 }
 
 // Don’t change the code bellow this line

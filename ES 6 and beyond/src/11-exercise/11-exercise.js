@@ -16,7 +16,17 @@
  */
 
 // Finish the code of the function
-function exercise11() {}
+function exercise11(array, entry) {
+    let findEntry = array.find((foundValue) => foundValue == entry);
+    return findEntry;
+}
+
+//trying to understand find function by my self
+/* let arr = [1, 2, 3, 4];
+let myfind = arr.find(function (eachNumber) {
+    return eachNumber == 3;
+});
+console.log(myfind); */
 
 // Don’t change the code bellow this line
 export default exercise11;

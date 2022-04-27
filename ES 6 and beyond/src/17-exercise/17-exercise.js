@@ -21,7 +21,16 @@
  */
 
 // Finish the code of the function
-function exercise17() {}
+function exercise17() {
+    const fetchPromise = fetch("https://jsonplaceholder.typicode.com/users/1");
+    fetchPromise
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            displayContents(data);
+        });
+}
 
 // Don’t change the code bellow this line
 function displayContents(data) {
